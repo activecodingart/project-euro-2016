@@ -102,10 +102,10 @@ footer {
   background: -webkit-linear-gradient(315deg, #0b4893 0%, #67a6d9 100%);
   background: linear-gradient(135deg, #0b4893 0%, #67a6d9 100%);
   color: #fdfdfd; }
-  footer label {
-    text-shadow: 1px 1px 2px #191919; }
   footer .form-control {
-    background: rgba(255, 255, 255, 0.65); }
+    background: white; }
+  footer input[type="text"] {
+    margin-bottom: 15px; }
   footer .btn {
     font-size: 14px; }
 
