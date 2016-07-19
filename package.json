@@ -1,0 +1,28 @@
+{
+  "name": "project-euro-2016",
+  "version": "1.0.0",
+  "description": "Website on the Euro 2016",
+  "main": "index.js",
+  "scripts": {
+    "test": "euro-2016-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/activecodingart/project-euro-2016.git"
+  },
+  "keywords": [
+    "grunt"
+  ],
+  "author": "Active Coding Art",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/activecodingart/project-euro-2016/issues"
+  },
+  "homepage": "https://github.com/activecodingart/project-euro-2016#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.2.0"
+  }
+}
