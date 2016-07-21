@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Kalam:700|Roboto'
 
+$euro-lightblue: #66afe9
+$euro-blue: #338ecf
+$euro-darkblue: #337ab7
+
 /* Global styles */
 body
 	font-family: 'Roboto', sans-serif
@@ -15,44 +19,44 @@ section h2
 /* Navbar */
 .navbar
 	background: #fff
-	border-bottom: 1px solid #338ecf
-	
+	border-bottom: 1px solid $euro-blue
+
 	.container
 		width: 100%
 		max-width: 1170px
-	
+
 	.btn
-		color: #338ecf
+		color: $euro-blue
 		padding: 6px
 		line-height: 20px
 		font-size: 16px
-		border-color: #337ab7
+		border-color: $euro-darkblue
 		-webkit-transition: 0.3s
 		transition: 0.3s
-	
+
 	.btn:hover
-		background: #66afe9
+		background: $euro-lightblue
 		color: #fdfdfd
-	
+
 	.form-control
-		border-color: #66afe9
+		border-color: $euro-lightblue
 		max-width: 176px
 
 .navbar-toggle
 	padding: 6px 7px
 	margin-right: 5px
-	
+
 	span
-		color: #337ab7
+		color: $euro-darkblue
 		font-size: 18px
 
 .nav
 	li
 		a
 			font-weight: 700
-		
+
 			&:hover
-				background: #66afe9
+				background: $euro-lightblue
 				color: #fdfdfd
 
 /* Jumbotron */
@@ -76,7 +80,7 @@ section h2
 		box-shadow: 0 0 1px #000, 0 0 1px #000, 0px 0px 10px #ffffff, -2px 0px 10px #ffffff
 
 /* Gallery */
-.gallery 
+.gallery
 	a
 		opacity: 1
 		display: block
@@ -87,7 +91,7 @@ section h2
 			opacity: 0.7
 
 /* Latest news */
-.latest-news 
+.latest-news
 	.btn
 		margin-bottom: 15px
 
@@ -98,8 +102,8 @@ section h2
 	color: #fdfdfd
 
 /* Statistics */
-.top-scorers 
-	tr 
+.top-scorers
+	tr
 		td:first-child
 			min-width: 110px
 
@@ -123,10 +127,10 @@ footer
 
 	.form-control
 		background: rgba(255, 255, 255, 1)
-	
+
 	input[type="text"]
 		margin-bottom: 15px
-	
+
 	.btn
 		font-size: 14px
 
@@ -158,13 +162,13 @@ footer
 
 /* RWD */
 @media (max-width: 960px)
-	.jumbotron 
+	.jumbotron
 		padding: 14% 0
 
 
 @media (max-width: 767px)
-	.navbar-header 
-		border-bottom: 1px solid #337ab7
-	
+	.navbar-header
+		border-bottom: 1px solid $euro-darkblue
+
 	.jumbotron
 		padding: 16% 0
